@@ -1,0 +1,47 @@
+(.../eagle/upl/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../pcbs/LED Board/NeoPixel Stick.brd)
+(Current profile is .../upl/pcb-gcode/profiles/mach.pp  )
+(This file generated 10/07/2018 11:09)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1000  )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(30.0000 	3.0000  	-0.0500 	-1.4800 )
+(spindle on time = 3.0000)
+(milling depth = -1.4500)
+(text depth = -0.1270)
+(tool change at 12.7000 15.2400 45.0000 )
+(feed rate xy = F100   )
+(feed rate z  = F100   )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0254)
+(isolate max = 0.1000)
+(isolate step = 0.1270)
+(Generated top outlines, top drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 1.118mm 0.0440in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z45.0000 
+G00 X12.7000 Y15.2400 
+M06 T01  ; 1.1176  
+G01 Z0.0000  F100   
+M06 T01  ; 1.1176  
+G00 Z3.0000  
+M03
+G04 P3.000000
+G82 X19.2300 Y4.3600  Z-1.4800 F100   R3.0000  P1.000000
+G82 X19.2300 Y6.9000  
+G82 X19.2300 Y9.4400  
+T01 
+G00 Z30.0000 
+M05
+M02
